@@ -10,16 +10,16 @@ public class AtividadeImc {
         System.out.println("Digite seu gênero (F/M/N): ");
         char genero = lerTeclado.nextLine().charAt(0);
 
-        System.out.println("Digite sua altura: ");
+        System.out.println("Digite sua altura (ex: 1,70): ");
         double altura = lerTeclado.nextDouble();
         lerTeclado.nextLine();
 
-        System.out.println("Digite seu peso em quilos: ");
+        System.out.println("Digite seu peso em quilos (ex: 70,5): ");
         double peso = lerTeclado.nextDouble();
         lerTeclado.nextLine();
-        
+
         double imc = peso / (altura * altura);
-        imc = Math.round(imc * 100)/100;
+        imc = Math.round(imc * 100) / 100;
         String classificacao = "";
 
         switch (genero) {
@@ -54,15 +54,18 @@ public class AtividadeImc {
                 }
                 break;
             default:
-             classificacao = "Gênero inválido.";
+                classificacao = "Gênero inválido.";
                 break;
         }
 
-        System.out.println("Calcúlo de IMC");
-        System.out.println("Nome:" + nome);
-        System.out.println("Gênero:" + genero);
-        System.out.println("IMC:" + imc);
-        System.out.println("Classificação:" + classificacao);
+        System.out.println("╔══════════════════════════════════════╗\r\n" + 
+                           "║           CÁLCULO DE IMC!            ║\r\n" + 
+                           "╚══════════════════════════════════════╝");
+
+        System.out.println("-> Nome: " + nome);
+        System.out.println("-> Gênero: " + genero);
+        System.out.println("-> IMC: " + imc);
+        System.out.println("-> Classificação: " + classificacao);
 
         lerTeclado.close();
     }
