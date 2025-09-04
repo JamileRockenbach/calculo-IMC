@@ -6,11 +6,9 @@ public class AtividadeImc {
 
         System.out.println("Digite seu nome: ");
         String nome = lerTeclado.nextLine();
-        lerTeclado.nextLine();
 
         System.out.println("Digite seu gênero (F/M/N): ");
         char genero = lerTeclado.nextLine().charAt(0);
-        lerTeclado.nextLine();
 
         System.out.println("Digite sua altura: ");
         double altura = lerTeclado.nextDouble();
@@ -21,6 +19,7 @@ public class AtividadeImc {
         lerTeclado.nextLine();
         
         double imc = peso / (altura * altura);
+        imc = Math.round(imc * 100)/100;
         String classificacao = "";
 
         switch (genero) {
