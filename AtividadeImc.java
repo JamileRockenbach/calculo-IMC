@@ -58,6 +58,7 @@ public class AtividadeImc {
                 break;
         }
 
+        System.out.print("\033[H\033[2J");
         System.out.println("╔══════════════════════════════════════╗\r\n" + 
                            "║           CÁLCULO DE IMC!            ║\r\n" + 
                            "╚══════════════════════════════════════╝");
