@@ -42,7 +42,7 @@ Para rodar a aplicação, basta compilar e executar o código Java. As instruç�
 
 ### 👥 Autores:
 
-Jamile Rockenbach Ferreira - 1137704
-Maria Luiza Pereto - 1138637 
+ - Jamile Rockenbach Ferreira - 1137704
+ - Maria Luiza Pereto - 1138637 
 
 ---
