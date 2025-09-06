@@ -1,6 +1,5 @@
 ### Calculadora de IMC
 
----
 
 Este projeto é uma calculadora de Índice de Massa Corporal (IMC) desenvolvida em Java. Foi criado para a disciplina de Organização e Abstração na Programação, sob a orientação do professor Luciano Rodrigo Ferretto, e segue todas as especificações da atividade proposta, incluindo o uso obrigatório das estruturas condicionais switch e if.
 
@@ -27,8 +26,8 @@ Após a entrada de dados, o programa realiza o cálculo do IMC e exibe a classif
 
 ### ⚙️ Requisitos Técnicos:
 
-Linguagem: Java
-Entrada de dados: Scanner
+ - Linguagem: Java
+ - Entrada de dados: Scanner
 
 Estruturas Condicionais: switch para o gênero e if para a classificação do IMC.
 
