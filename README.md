@@ -10,36 +10,19 @@ O programa foi desenvolvido para calcular o IMC e classificar o resultado com ba
 
 A aplicação solicita ao usuário as seguintes informações:
 
-Nome (String)
-
-Gênero (char: 'M' para Masculino, 'F' para Feminino, 'N' para Não informado)
-
-Altura (double)
-
-Peso (double)
+- Nome (String)
+- Gênero (char: 'M' para Masculino, 'F' para Feminino, 'N' para Não informado)
+- Altura (double)
+- Peso (double)
 
 Após a entrada de dados, o programa realiza o cálculo do IMC e exibe a classificação, seguindo as regras da tabela fornecida na descrição da atividade.
 
 ⚙️ Requisitos Técnicos:
 
 Linguagem: Java
-
 Entrada de dados: Scanner
 
 Estruturas Condicionais: switch para o gênero e if para a classificação do IMC.
-
-📊 Tabela de Classificação:
-
-O programa utiliza a seguinte tabela para classificar o IMC:
-
-Classificação	Masculino	Feminino
-Abaixo do Normal	< 20	< 19
-Normal	20 a 24,9	19 a 23,9
-Obesidade Leve	25 a 29,9	24 a 28,9
-Obesidade Moderada	30 a 39,9	29 a 38,9
-Obesidade Mórbida	≥ 40	≥ 39
-
-Observação: Para o gênero 'N' (Não informado), o programa aplica as regras da coluna Feminino.
 
 🚀 Como Executar:
 
